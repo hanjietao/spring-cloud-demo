@@ -14,7 +14,7 @@ public class IndexController {
 
     @RequestMapping("indexClient.do")
     public String index(){
-        ResponseEntity<String> responseEntity = restTemplate.getForEntity("http://microservice-1000-order/index.do",String.class);
+        ResponseEntity<String> responseEntity = restTemplate.getForEntity("http://microservice-order/index.do",String.class);
         return responseEntity.getBody();
     }
 }

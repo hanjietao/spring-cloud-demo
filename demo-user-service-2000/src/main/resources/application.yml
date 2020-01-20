@@ -6,4 +6,4 @@ eureka:
       defaultZone: http://localhost:9000/eureka/
 spring:
   application:
-    name: microservice-2000-user
+    name: microservice-user
